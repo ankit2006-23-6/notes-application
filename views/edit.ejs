@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="all_posts">
+    <div class="all_posts1">
         <h1>EDIT YOUR NOTE</h1>
-        <div class="posts">
+        <div class="posts1">
             <h2>TITLE : <%= info.username %></h2>
             <form method="post" action="/notes/<%= info.id %>?_method=PATCH">
-                <textarea name="content" id="content"><%= info.content %></textarea>
+                <textarea name="content" id="content" rows="8" cols="35"><%= info.content %></textarea>
                 <button type="submit">submit</button>
-
             </form>
 
         </div>

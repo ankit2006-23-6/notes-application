@@ -8,9 +8,63 @@ body{
     background-color: #DEE2E6;
     margin-left: 28vh;
 }
+
+.all_posts3{
+
+    height: 80vh;
+    margin: 5%;
+    width: 150vh;
+    background-color: #DEE2E6;
+    margin-left: 28vh;
+}
+.title{
+    height: 30px;
+    width: 50vh;
+}
+.content{
+    margin-top: 5%;
+}
+.all_posts2{
+
+    margin: 5%;
+    width: 150vh;
+    height: inherit;
+    background-color: #DEE2E6;
+    margin-left: 28vh;
+}
+
+.all_posts1{
+
+    margin: 5%;
+    width: 150vh;
+    height: 40vh;
+    background-color: #DEE2E6;
+    margin-left: 28vh;
+}
 .posts{
     width: 100vh;
     margin: 3%;
+    margin-left:10%;
+    background-color: #e9ecef;
+    
+}
+.posts2{
+    width: 100vh;
+    margin: 3%;
+    height: inherit;
+    margin-left:16%;
+    margin-top: 10px;
+    background-color: #e9ecef;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    
+}
+.posts1{
+    width: 100vh;
+    margin: 3%;
+    height: 30vh;
+
     margin-left:10%;
     background-color: #e9ecef;
     
@@ -31,21 +85,24 @@ h1{
 }
 .form{
     background-color: transparent;
-    width: 70vh;
+    width: 90vh;
     margin: auto;
-    height: 30vh;
+    height: 50vh;
     padding: 20px;
 }
 .inputs{
     background-color:transparent;
-    width: 50vh;
+    width: 70vh;
     margin: auto;
-    height: 25vh;
+    height: 45vh;
     padding: 20px;
     border: 2px solid black;
 }
 .f_submit{
-    border: none;
+    margin-left: 40%;
+    height: 20px;
+    width: 80px;
+
     
 }
 .f_submit:hover{
