@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="all_posts">
+        <h1>EDIT YOUR NOTE</h1>
+        <div class="posts">
+            <h2>TITLE : <%= info.username %></h2>
+            <form method="post" action="/notes/<%= info.id %>?_method=PATCH">
+                <textarea name="content" id="content"><%= info.content %></textarea>
+                <button type="submit">submit</button>
+
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>

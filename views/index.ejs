@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="all_posts box">
+        <h1>NOTES APP</h1>
+        <%for( note of notes ){ %>
+            <div class="posts">
+                <h4>note id: <%= note.id %></h4>
+                <h2>TITLE : <%= note.username %></h2>
+                <div class="con"><p><%= note.content %></p></div>
+                <div class="action_button">
+                    <a href="http://localhost:3000/notes/<%= note.id %>"><button>see note</button></a>
+                    <a href="http://localhost:3000/notes/<%= note.id %>/edit"><button>edit note</button></a>
+                    <form method="post" action="/notes/<%=note.id%>?_method=DELETE">
+                        <button>delete</button>
+                    </form>
+                    
+                </div>
+            </div>
+        <%}%> 
+        <div class="but_div"><a href="http://localhost:3000/notes/new"><button>add new note</button></a></div>
+           
+    </div>
+    
+</body>
+</html>

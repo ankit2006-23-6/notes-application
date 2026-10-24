@@ -1,0 +1,71 @@
+body{
+    background-color: #343A40;
+}
+.all_posts{
+
+    margin: 5%;
+    width: 150vh;
+    background-color: #DEE2E6;
+    margin-left: 28vh;
+}
+.posts{
+    width: 100vh;
+    margin: 3%;
+    margin-left:10%;
+    background-color: #e9ecef;
+    
+}
+.posts:hover{
+    box-shadow: 2px 2px 2px purple;
+}
+
+h1{
+    margin: 2%;
+    text-align: center;
+    color: maroon;
+   
+}
+
+.but_div{
+    margin-left: 65vh;
+}
+.form{
+    background-color: transparent;
+    width: 70vh;
+    margin: auto;
+    height: 30vh;
+    padding: 20px;
+}
+.inputs{
+    background-color:transparent;
+    width: 50vh;
+    margin: auto;
+    height: 25vh;
+    padding: 20px;
+    border: 2px solid black;
+}
+.f_submit{
+    border: none;
+    
+}
+.f_submit:hover{
+    box-shadow: #343A40;
+    
+    
+}
+button{
+    border-radius: none;
+   
+}
+button:hover{
+    background-color: purple;
+    border: none;
+    color: white;
+}
+.action_button{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
